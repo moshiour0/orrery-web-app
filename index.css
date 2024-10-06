@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a; /* Darker background for better contrast */
+    color: white;
+    font-family: Arial, sans-serif; /* Modern font for better readability */
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 800px; /* Fixed height for the canvas */
+}
+
+canvas {
+    flex: 3; /* 3/4 of the width */
+    border: 1px solid #ccc; /* Lighter border for contrast */
+    background-color: black;
+}
+
+#controls {
+    flex: 1; /* 1/4 of the width */
+    margin-left: 10px; /* Space between canvas and controls */
+    padding: 15px; /* Padding for better spacing */
+    border: 1px solid #ccc; /* Light border around controls */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    background-color: #2a2a2a; /* Slightly lighter background for controls */
+}
+
+.control-group {
+    margin-bottom: 10px; /* Spacing between control groups */
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: space-between; /* Even spacing for buttons */
+}
+
+#planetInfo {
+    margin-top: 10px;
+    font-size: 16px; /* Increased font size for visibility */
+}
+
+#timeDisplay {
+    margin-top: 10px;
+    font-size: 20px; /* Increase the font size for visibility */
+    font-weight: bold; /* Make the time display bold */
+}
